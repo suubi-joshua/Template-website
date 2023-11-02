@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.about {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutTop {
+  width: 100%;
+  height: 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.aboutBottom {
+  display: flex;
+  flex-direction: column;
+  height: 55%;
+  align-items: center;
+  margin-top: 50px;
+  background-color: white;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.4);
+  
+  
+}
+
+.middle {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    text-wrap: wrap;
+    
+    
+}
+
+.aboutBottom p {
+  width: 1200px;
+    height: 100px;
+  margin: 0.8;
+}
+
+
+.about .aboutBottom p {
+    margin-top: 50px;
+    color: black;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 500;
+    text-align: center;
+    text-wrap: wrap;
+
+
+
+}
+/* @keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+} */
+
+.about .aboutBottom h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-image: linear-gradient(gold, gold);
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  transition: background-size .7s, background-position .5s ease-in-out;
+}
+
+.about .aboutBottom h1:hover {
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-position .7s, background-size .5s ease-in-out;
+}
