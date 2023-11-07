@@ -7,7 +7,13 @@ function Menu() {
   return (
     <div className='menu'>
       <h1 className='menuTitle'> Our Menu </h1>
-      {/* Going throught a list of food items at the resturant */}
+      <div className='search'>
+        {/* Search button */}
+        <label htmlFor="search"></label>
+        <input id="search" type="search" placeholder="Search for stuff ..." />
+        <button type="submit-search">Go</button>    
+        
+      </div>
       <div className='menuList'>
           {MenuList.map((foodItem, key) => {
             return (
